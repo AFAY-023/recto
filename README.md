@@ -4,6 +4,9 @@
 
 整个工具在浏览器里运行：解析和 OCR 在本地完成，翻译用用户自己的 API Key 直接调用 Claude 或 DeepSeek，不需要后端。
 
+- 在线使用：https://afay-023.github.io/recto/
+- 技术笔记（实现思路与实时示意图）：https://afay-023.github.io/recto/tech.html
+
 ## 功能
 
 - **三种识别方式**，按页自动推荐，也可以手动切换：

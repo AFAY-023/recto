@@ -519,7 +519,12 @@ export function Landing({ onFile, onSample, onSettings, loading }: Props) {
 
       <footer className="lp-foot">
         <span className="wordmark">Recto</span>
-        <span>保留版式的文档翻译 · 作品集项目 · 2026</span>
+        <span>
+          保留版式的文档翻译 · 作品集项目 · 2026 ·{' '}
+          <a className="lp-foot-link" href="./tech.html">
+            技术笔记
+          </a>
+        </span>
       </footer>
 
       {dragging && (

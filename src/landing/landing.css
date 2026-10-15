@@ -810,6 +810,12 @@
   flex-wrap: wrap;
 }
 
+.lp-foot-link {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
 .lp-foot {
   display: flex;
   justify-content: space-between;
